@@ -5,7 +5,7 @@ a {
 body {
 	margin: 0; padding: 0;
     height: 100%; width: 100%;
-    background-color: inherit; /* inherit bg colour from colour class */
+    background-color: #202020;
     background-image: url('../img/bg.png');
 }
 h1,h2 {
