@@ -78,7 +78,7 @@ p {
 
 /* General Classes */
 .container {
-    width: 100%;
+    width: 100%; height: 100%;
 }
 .content {
     min-height: 20%;
@@ -90,22 +90,16 @@ p {
 
 /* Welcome */
 .bgVid {
-    width: 100%; height: 100%; 
+    position: fixed;
+    right: 0; bottom: 0;
+    min-width: 100%;  min-height: 100%;
     z-index: -1000; 
     overflow: hidden;
     opacity: 0.2;
 }
 .welcome {
     width: 100%; height: 100%;
-    background-color: #202020; 
-    top: 0; left: 0;
-    opacity: 0.8;
     display: block;
-}
-.welcome-content {
-    position: absolute;
-    top: 0; left: 0;
-    width: 100%; height: 100%;
 }
 .kebab {
     position: relative;
